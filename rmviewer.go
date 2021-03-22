@@ -17,6 +17,7 @@ func main() {
 	defer os.RemoveAll(fileio.TmpDir)
 
 	// check rmview
+	fmt.Println("Checking for an rMview installation")
 	if strings.Contains(Exec("where", "rmview"), "not found") {
 		// check python
 		fmt.Println("Checking for a Python 3 installation")
