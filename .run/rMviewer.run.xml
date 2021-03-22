@@ -1,12 +1,11 @@
 <component name="ProjectRunConfigurationManager">
-    <configuration default="false" name="rMviewer" type="GoApplicationRunConfiguration" factoryName="Go Application">
-        <module name="rMviewer"/>
-        <working_directory value="$PROJECT_DIR$"/>
-        <kind value="FILE"/>
-        <filePath value="$PROJECT_DIR$/rmviewer.go"/>
-        <package value="github.com/rhobro/rMviewer"/>
-        <directory value="$PROJECT_DIR$"/>
-        <output_directory value="$PROJECT_DIR$/bin"/>
-        <method v="2"/>
+    <configuration default="false" name="run" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="rMviewer"/>
+      <working_directory value="$PROJECT_DIR$"/>
+      <kind value="FILE"/>
+      <filePath value="$PROJECT_DIR$/rmviewer.go"/>
+      <package value="github.com/rhobro/rMviewer"/>
+      <directory value="$PROJECT_DIR$"/>
+      <method v="2"/>
     </configuration>
 </component>

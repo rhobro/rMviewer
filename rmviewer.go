@@ -18,7 +18,8 @@ func main() {
 
 	// check rmview
 	fmt.Println("Checking for an rMview installation")
-	if strings.Contains(Exec("where", "rmview"), "not found") {
+	o := Exec("which", "rmview")
+	if strings.Contains(o, "not found") || o == "" {
 		// check python
 		fmt.Println("Checking for a Python 3 installation")
 		if !strings.Contains(Exec("python3", "--version"), "Python") {

@@ -12,6 +12,9 @@ A user-friendly interface to the installation and usage of rMview for reMarkable
 - Open the Terminal app on Mac OS and navigate to the downloads folder using `cd Downloads` (this is the default unless
   you have changed it).
 - Allow the file to be executed by running `chmod +x rmviewer`
+
+### Usage
+
 - Run the executable using `./rmviewer`
 
 This should install all the necessary dependencies such as Homebrew, Python 3 and the relevant sub-dependencies before
